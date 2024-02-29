@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0px;
+    background-color: white;
+    position: fixed;
+    top: 0%;
+}
+
+.logo{
+    height: 56px;
+    margin-top: 12px;
+}
+
+.tags a{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+}
+
+sup{
+    color: #FF537B;
+}
+
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 12px;
+}
+
+.button1{
+    background-color:#EAEAEC;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+.img1{
+    margin-top: 5px;
+    height: 22px;
+}
+
+.input1{
+    background-color:#EAEAEC;
+    border: none;
+    height: 40px;
+    width: 304px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.profile img{
+    height: 24px;
+    width: 24px;
+}
+
+.profile a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.profile span{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#show{
+    margin: 40px 0px;
+}
+
+#show h1{
+    font-size: 28px;
+    letter-spacing: 4.32px;
+    margin-left: 30px;
+}
+
+.banner{
+    margin: 40px 0px;
+}
+
+.medal{
+    margin: 10px 0px;
+    font-weight: 700;
+}
+
+.container{
+    margin: 0px 0px;
+    width: 100%;
+}
+
+.brands{
+    margin: 40px 0px;
+}
+
+.card-body p{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.card-body h2{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.slide{
+    margin: 40px 0px;
+}
+
+.case img{
+    position: relative;
+}
+
+.img-logo{
+    position: absolute;
+    top: 155px;
+    left: 35%;
+    right: 35%;
+    background-color: white;
+}
+
+.category .container{
+    padding: 10px 0px;
+}
+
+.create{
+    background-color: #f15b29;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+}
+
+.create p{
+    margin-bottom: 0%;
+}
+
+.create h3{
+    margin-bottom: 0%;
+}
+
+#footer{
+    padding: 40px 100px;
+    background-color: #FAFBFC;
+}
+
+#footer ul{
+    list-style-type: none;
+    font-size: 15px;
+    color: #696B8E;
+    margin: 15px 0px;
+    padding-top: 12px;
+    padding-left: 0px;
+}
+
+#footer h4{
+    font-size: 12px;
+    color: black;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    gap: 20px;
+}
+
+.icons img{
+    height: 24px;
+}
+
+.percent img{
+    height: 40px;
+}
+
+.percent{
+    display: flex;
+    gap: 5px;
+    font-size: 16px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact a{
+    text-decoration: none;
+}
